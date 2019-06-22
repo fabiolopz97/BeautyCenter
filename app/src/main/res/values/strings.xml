@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Beauty Center</string>
+    <string name="title_login_ui">Bienvenido</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_action_bar">Centro de Belleza</string>
+
+    <string name="user">Usuario</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="email">Email</string>
+    <string name="birthday">Fecha de Nacimiento</string>
+    <string name="phone">Celular</string>
+    <string name="password">Clave</string>
+
+    <string name="button_login_mgs">Iniciar Sesión</string>
+    <string name="button_reserve_mgs">Reservar</string>
+    <string name="button_sing_up_mgs">Registrate</string>
+
+    <string name="tab_text_1">Servicios</string>
+    <string name="tab_text_2">Posts</string>
+    <string name="tab_text_3">"Citas"</string>
+
+    <string name="error_required_field_mgs">"Campo Requerido"</string>
+    <string name="error_email_mgs">"Correo Invalido"</string>
+
+</resources>
