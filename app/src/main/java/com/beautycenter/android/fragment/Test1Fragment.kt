@@ -46,10 +46,10 @@ class Test1Fragment : Fragment() {
      * Pending delete this method, only test
      */
     private fun getServiceCategory() = listOf(
-            ServiceCategory(1, "Test-Post 1", ""+R.mipmap.logotype),
-            ServiceCategory(2, "Test-Post 2", ""+R.mipmap.logotype),
-            ServiceCategory(3, "Test-Post 3", ""+R.mipmap.logotype),
-            ServiceCategory(4, "Test-Post 4", ""+R.mipmap.logotype)
+            ServiceCategory(1, "Publicación 1", ""+R.mipmap.logotype),
+            ServiceCategory(2, "Publicación 2", ""+R.mipmap.logotype),
+            ServiceCategory(3, "Publicación 3", ""+R.mipmap.logotype),
+            ServiceCategory(4, "Publicación 4", ""+R.mipmap.logotype)
         )
 
 

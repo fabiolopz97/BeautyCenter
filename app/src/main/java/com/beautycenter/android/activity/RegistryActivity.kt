@@ -136,6 +136,7 @@ class RegistryActivity : AppCompatActivity() {
     private fun showActionBar(){
         setSupportActionBar(toolbar as Toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = getString(R.string.title_action_bar)
     }
 
     /*override fun onCreateOptionsMenu(menu: Menu?): Boolean {

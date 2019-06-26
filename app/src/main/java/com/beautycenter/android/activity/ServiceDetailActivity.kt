@@ -26,10 +26,7 @@ class ServiceDetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_service_detail)
-        setSupportActionBar(toolbar as Toolbar)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = getString(R.string.title_action_bar)
+        showActionBar(intent.getStringExtra(ServicesFragment.NAME_ACTIVITY))
         getAndShowServices()
     }
 
@@ -70,6 +67,13 @@ class ServiceDetailActivity : AppCompatActivity() {
             layoutManager = viewManager
             adapter = viewAdapter
         }
+    }
+
+    private fun showActionBar(nameActivity: String){
+        setContentView(R.layout.activity_service_detail)
+        setSupportActionBar(toolbar as Toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = nameActivity
     }
 
 }

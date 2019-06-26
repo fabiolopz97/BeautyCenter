@@ -62,6 +62,7 @@ class ServicesFragment : Fragment() {
             val intentServiceDetail = Intent(v.context, ServiceDetailActivity::class.java)
             MethodsUtils.showMessage(v.context, "Service clicked: ${service.name}")
             intentServiceDetail.putExtra(SERVICE_CATEGORY_ID_KEY, service.id)
+            intentServiceDetail.putExtra(NAME_ACTIVITY, service.name)
             v.context.startActivity(intentServiceDetail)
         }
 
@@ -74,6 +75,7 @@ class ServicesFragment : Fragment() {
 
     companion object {
         const val SERVICE_CATEGORY_ID_KEY = "service_category_id"
+        const val NAME_ACTIVITY = "name_activity"
     }
 
 }
