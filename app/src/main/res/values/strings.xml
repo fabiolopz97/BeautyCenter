@@ -22,5 +22,15 @@
 
     <string name="error_required_field_mgs">"Campo Requerido"</string>
     <string name="error_email_mgs">"Correo Invalido"</string>
+    <string name="custom_content_desc">Usuario</string>
+    <string name="content_description_logo">Logo</string>
+    <string name="text_sign_up_here">Registrate aquí!</string>
+    <string name="text_connect_with">O conéctate con</string>
+    <string name="text_test_button">Button</string>
+    <string name="text_image_post">Publicación</string>
+    <string name="text_image_appointment">Cita</string>
+    <string name="text_test">Texto de prueba</string>
+    <string name="text_image_service">Servicio</string>
+    <string name="text_image_service_detail">Detalle del Servicio</string>
 
 </resources>
